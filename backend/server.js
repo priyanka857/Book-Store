@@ -30,6 +30,10 @@ const Book = mongoose.model('Book', bookSchema);
 
 
 //Implement CRUD
+app.get('/', (req, res) => {
+  res.send('Backend server is running!');
+});
+
 
 //CREATE
 
